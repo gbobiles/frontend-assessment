@@ -8,10 +8,13 @@ Repository forked from mindarc/frontend-assessment.
 
 ---
 
-Build Tool: Vite
-CSS Framework: Tailwind
-JS Framework: Vue 3
-Animation Library: GSAP (for exercise 2)
+##Build Tool: Vite
+
+##CSS Framework: Tailwind
+
+##JS Framework: Vue 3
+
+##Animation Library: GSAP (for exercise 2)
 
 ---
 
