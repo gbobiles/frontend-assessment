@@ -1,12 +1,12 @@
 <template>
-  <div class="relative w-full h-auto">
+  <div class="banner relative w-full h-auto mb-5">
     <img
       :src="bannerImage"
       alt="main-banner"
-      class="w-full h-auto object-cover"
+      class="banner__image w-full h-auto object-cover"
     />
     <div
-      class="absolute inset-0 flex flex-col justify-center items-center text-center text-white p-10"
+      class="banner__body absolute inset-0 flex flex-col justify-center items-center text-center text-white p-10"
     >
       <h2 class="text-4xl font-bold">Hello Developer!</h2>
       <p class="text-lg mt-2">
@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: "main-banner",
+  name: "bannerComponent",
   data() {
     return {
       bannerImage: "",

@@ -1,17 +1,17 @@
 <template>
-  <div class="flex flex-col md:flex-row gap-6 p-4">
+  <div class="card flex flex-col md:flex-row gap-6 p-4">
     <!-- Loop through the cards array -->
     <div
       v-for="(card, index) in cards"
       :key="index"
-      class="flex flex-1 flex-col bg-white shadow-md rounded-lg overflow-hidden p-5 text-center"
+      class="card__container flex flex-1 flex-col bg-white rounded-lg overflow-hidden p-5 text-center"
     >
       <img
         :src="card.image"
         :alt="'Card Image ' + (index + 1)"
-        class="w-full h-auto object-cover rounded-md"
+        class="card__image w-full h-auto object-cover rounded-lg"
       />
-      <div class="p-4 flex flex-col flex-1">
+      <div class="card__body p-4 flex flex-col flex-1">
         <p class="text-gray-600 mb-4 flex-1">{{ card.text }}</p>
         <div class="mt-auto">
           <button
@@ -26,8 +26,10 @@
 </template>
 
 <script>
+import "../assets/custom.css";
+
 export default {
-  name: "content-card",
+  name: "cardComponent",
   data() {
     return {
       // Array of card data

@@ -1,9 +1,9 @@
 <script setup>
-import BannerComponent from "./components/main-banner.vue";
-import ContentCard from "./components/content-card.vue";
+import Banner from "./components/bannerComponent.vue";
+import Card from "./components/cardComponent.vue";
 </script>
 
 <template>
-  <BannerComponent />
-  <ContentCard />
+  <Banner />
+  <Card />
 </template>
