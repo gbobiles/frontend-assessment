@@ -1,5 +1,33 @@
-# Vue 3 + Vite
+# Exercise Number 1
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Responsive Web Design
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+This template was set up using Vite with Tailwind support.
+
+---
+
+Descriptions:
+
+1. All custom classes followed the BEM Methodology.
+
+2. Custom.css was created for all custom styling outside Tailwind pre-built classes.
+
+3. Design followed the desktop and mobile mockup provided.
+
+4. Vue 3 was used as the JS Framework to build a responsive, fast and modern one page website.
+
+---
+
+Instructions:
+
+## Please use git clone to get a local copy of the folder.
+
+---
+
+## Commands
+
+npm install
+
+npm run dev
